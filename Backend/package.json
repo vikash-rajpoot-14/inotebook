@@ -1,24 +1,18 @@
 {
   "name": "inotebook",
   "version": "1.0.0",
-  "description": "backend",
+  "description": "full stack app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vikash-rajpoot-14/inotebook.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vikash-rajpoot-14/inotebook/issues"
-  },
-  "homepage": "https://github.com/vikash-rajpoot-14/inotebook#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.18.1",
     "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.6.0"
   },
   "devDependencies": {
