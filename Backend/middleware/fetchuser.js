@@ -1,5 +1,5 @@
 var jwt = require('jsonwebtoken');
-const JWT_SECRET="Viaksh is a smart child";
+const JWT_SECRET="Vikash is a smart child";
 
 const fetchuser=(req,res,next)=>{
 //Get user from the jwt token and add id to req obj
